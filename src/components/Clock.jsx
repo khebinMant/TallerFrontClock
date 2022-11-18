@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { ClockHands } from './ClockHands';
 import { ClocksNumbers } from './ClocksNumbers';
 

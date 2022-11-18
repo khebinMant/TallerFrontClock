@@ -1,4 +1,3 @@
-import React from 'react'
 import { useClock } from '../hooks/useClock'
 
 export const ClockHands = () => {

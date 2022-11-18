@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import {useState } from 'react'
 
 export const useClock = () => {
     
@@ -17,7 +17,7 @@ export const useClock = () => {
             const mins = now.getMinutes();
             const hour = now.getHours();
 
-            console.log(seconds,mins,hour)
+            // console.log(seconds,mins,hour)
 
             setSecondsGrades(seconds*6)
             setMinutesGrades(mins*6)
