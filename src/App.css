@@ -90,28 +90,21 @@ body {
 }
 
 .clock .hand.second {
-  --rotation: 0;
   width: 3px;
   height: 45%;
   background: red;
-  animation: second 60s infinite linear;
-  transform: rotate(200deg)
 }
 
 .clock .hand.minute {
-  --rotation: 0;
   width: 7px;
   height: 40%;
   background: black;
-  animation: second 60s infinite linear;
 }
 
 .clock .hand.hour {
-  --rotation: 0;
   width: 10px;
   height: 35%;
   background: black;
-  animation: second 60s infinite linear;
 }
 
 .clock::after {
@@ -126,3 +119,4 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
