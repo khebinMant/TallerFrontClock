@@ -5,8 +5,6 @@ export const ClockHands = () => {
 
     const {secondsGrades,minutesGrades, hoursGrades} = useClock()
 
-    // console.log(secondsGrades,minutesGrades, hoursGrades)
-
     return (
       <>
           <div style={{transform:`rotate(${hoursGrades}deg)`}} className="hand hour" data-hour-hand></div>

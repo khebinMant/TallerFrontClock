@@ -19,9 +19,9 @@ export const useClock = () => {
 
             console.log(seconds,mins,hour)
 
-            setSecondsGrades(((seconds / 60) * 360) + 90)
-            setMinutesGrades( ((mins / 60) * 360) + ((seconds/60)*6) + 90)
-            setHoursGrades(((hour) * 360) + ((mins/60)*30) + 90)
+            setSecondsGrades(seconds*6)
+            setMinutesGrades(mins*6)
+            setHoursGrades(hour*30+mins/2)
         }, 1000);
     }
 
