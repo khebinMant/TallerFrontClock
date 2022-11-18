@@ -2,7 +2,7 @@ import {useState } from 'react'
 
 export const useClock = () => {
     
-    const [secondsGrades, setSecondsGrades] = useState( )
+    const [secondsGrades, setSecondsGrades] = useState()
 
     const [minutesGrades, setMinutesGrades] = useState()
 
