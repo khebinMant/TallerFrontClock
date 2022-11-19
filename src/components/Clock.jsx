@@ -1,12 +1,12 @@
 import { ClockHands } from './ClockHands';
-import { ClocksNumbers } from './ClocksNumbers';
+import { ClockNumbers } from './ClockNumbers';
 
 export const Clock = () => {
     
     return (
         <div className="clock">
             <ClockHands />
-            <ClocksNumbers/>
+            <ClockNumbers/>
         </div>
     )
 }

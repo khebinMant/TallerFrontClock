@@ -1,4 +1,4 @@
-export const ClocksNumbers = () => {
+export const ClockNumbers = () => {
     
     const n = 12; 
 
