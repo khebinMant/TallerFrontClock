@@ -6,7 +6,7 @@ export const Clock = () => {
     return (
         <div className="clock">
             <ClockHands />
-            <ClockNumbers/>
+            <ClockNumbers />
         </div>
     )
 }
