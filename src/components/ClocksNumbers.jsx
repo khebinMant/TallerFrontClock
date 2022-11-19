@@ -6,7 +6,7 @@ export const ClocksNumbers = () => {
         <>
             {
                 [...Array(n)].map((e,i)=>(
-                    <div className={`number number${i+1}`}>{i+1}</div>
+                    <div key={i} className={`number number${i+1}`}>{i+1}</div>
                 ))
             }
         </>
