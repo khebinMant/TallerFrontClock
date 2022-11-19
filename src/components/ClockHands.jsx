@@ -1,11 +1,8 @@
-import React from 'react'
 import { useClock } from '../hooks/useClock'
 
 export const ClockHands = () => {
 
     const {secondsGrades,minutesGrades, hoursGrades} = useClock()
-
-    // console.log(secondsGrades,minutesGrades, hoursGrades)
 
     return (
       <>
